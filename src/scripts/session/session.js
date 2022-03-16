@@ -1,0 +1,10 @@
+import {footer} from '../footer.js';
+import {header} from '../header.js';
+import {main} from './main.js';
+import {events} from './events.js';
+import {menuEvent} from '../funciones.js';
+const body = document.getElementById('body');
+header();
+main();
+events();
+menuEvent();

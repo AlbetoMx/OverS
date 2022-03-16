@@ -1,0 +1,83 @@
+canvas
+{
+	background-size: cover;
+}
+.wrap-cont
+{
+
+	background-color: #222;
+	padding: 1rem 0 1rem 0;
+	filter: brightness(.3);
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: .2rem;
+	transition-duration: .5s;
+}
+.wrap-item 
+{
+	list-style: none;
+	max-width: 250px ;
+	min-width: 200px;
+	margin: .6rem;
+	transition-duration: .5s;
+
+
+}
+.wrap-item:hover
+{
+	position: relative;
+	transform: translateY(-.5rem);
+
+	
+}
+.wrap-cont:hover
+{
+	filter: brightness(1);
+	
+}
+
+
+
+.clubs-pag
+{
+	
+}
+#content-clubs
+{
+	background-color: #fff;
+
+
+}
+.wrap-item a 
+{
+	text-decoration: none;
+}
+.img-club img
+{
+	width: 100%;
+
+}
+.img-club-50
+{
+		width: 3rem;
+
+	height: 3rem;
+
+}
+.club-icon img
+{
+	width: 2rem;
+	height: 2rem;
+}
+.circle
+{
+	background-color: #fff2;
+	padding: .5rem;
+	position: absolute;
+	border-radius: 3rem;
+	
+}
+.bavk-white
+{
+	width: 100%;
+	background-color: var(--white);
+}
