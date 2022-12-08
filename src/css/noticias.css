@@ -1,0 +1,44 @@
+:root {
+    --minvisibili: 276px;
+    --azulUltra: #418BE5FF;
+    --verdePasto: #14AA00FF;
+    --verdePastoP: #147B00FF;
+    --gray: #939393FF;
+    --grayBlue: #CCDFEDFF;
+    --white: #fff;
+    --blackgray: #222;
+    --greenWater: #077;
+    --whiteblue: #f5fefd;
+}
+.content_li
+{
+	list-style: none;
+      min-width: var(--minvisibili);
+   
+    max-width: 100vw;
+    height: 100vh;
+}
+.notc_1
+{
+   min-width: var(--minvisibili);
+   
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(https://library.sportingnews.com/styles/crop_style_16_9_mobile_2x/s3/2022-08/sporting-news-2022-photo-with-watermark-b67c5177-670a-425d-aed9-d5d1fe1a96bf.png?itok=LwoDY_EA);
+    background-size: cover;
+    background-position: 50%;
+    filter:brightness(.4);
+position: relative;
+ 
+  
+}
+.Texto_ABS
+{
+    color: var(--white);
+    position: absolute;
+
+}
+.Titile_1
+{
+
+}
